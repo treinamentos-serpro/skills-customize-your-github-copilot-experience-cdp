@@ -72,6 +72,25 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "testing-fastapi-apis",
+      "title": "Testando APIs FastAPI com pytest",
+      "description": "Testes automatizados de rotas FastAPI com pytest, validação de respostas HTTP e isolamento dos casos.",
+      "path": "assignments/testing-fastapi-apis",
+      "dueDate": "2026-10-06",
+      "attachments": [
+        {
+          "name": "API de Livros",
+          "file": "api.py",
+          "type": "python"
+        },
+        {
+          "name": "Código inicial dos testes",
+          "file": "test_api.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
