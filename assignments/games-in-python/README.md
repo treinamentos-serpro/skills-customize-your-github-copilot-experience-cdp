@@ -1,19 +1,38 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Assignment: Jogo da Forca
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objective
 
-## 🎯 O Que Você Vai Construir
+Crie o jogo da Forca em Python para praticar strings, listas, loops, condicionais e entrada de dados. O jogador deve descobrir uma palavra oculta antes de esgotar as tentativas disponíveis.
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tasks
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+### 🛠️ Prepare a palavra e o estado inicial
 
-## ✅ Requisitos Obrigatórios
+#### Description
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+Implemente a seleção aleatória de uma palavra e prepare as informações necessárias para iniciar uma partida.
+
+#### Requirements
+
+O programa deve:
+
+- Selecionar aleatoriamente uma palavra de uma lista predefinida.
+- Manter a palavra oculta durante a partida e exibir uma posição por letra, como `_ _ _ _`.
+- Definir e exibir o número de tentativas incorretas disponíveis.
+
+### 🛠️ Implemente os palpites e o fim da partida
+
+#### Description
+
+Crie o loop principal para receber palpites de letras, atualizar o progresso e encerrar a partida quando o jogador vencer ou ficar sem tentativas.
+
+#### Requirements
+
+O programa deve:
+
+- Solicitar uma letra ao jogador e verificar se ela aparece na palavra.
+- Revelar todas as posições correspondentes quando o palpite estiver correto.
+- Reduzir as tentativas restantes quando o palpite estiver incorreto.
+- Encerrar quando todas as letras forem descobertas ou não houver mais tentativas.
+- Exibir uma mensagem indicando vitória ou derrota e revelar a palavra ao fim da partida.
