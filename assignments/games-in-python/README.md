@@ -7,13 +7,13 @@ Crie o jogo da Forca em Python para praticar strings, listas, loops, condicionai
 
 ## 📝 Tasks
 
-### 🛠️ Prepare a palavra e o estado inicial
+### 🛠️ Selecione a palavra e prepare o estado inicial
 
-#### Description
+#### Descrição
 
 Implemente a seleção aleatória de uma palavra e prepare as informações necessárias para iniciar uma partida.
 
-#### Requirements
+#### Requisitos
 
 O programa deve:
 
@@ -23,11 +23,11 @@ O programa deve:
 
 ### 🛠️ Implemente os palpites e o fim da partida
 
-#### Description
+#### Descrição
 
 Crie o loop principal para receber palpites de letras, atualizar o progresso e encerrar a partida quando o jogador vencer ou ficar sem tentativas.
 
-#### Requirements
+#### Requisitos
 
 O programa deve:
 
