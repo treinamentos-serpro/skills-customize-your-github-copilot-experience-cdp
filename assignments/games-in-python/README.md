@@ -1,11 +1,11 @@
 
-# 📘 Assignment: Jogo da Forca
+# 📘 Atividade: Jogo da Forca
 
-## 🎯 Objective
+## 🎯 Objetivo
 
-Crie o jogo da Forca em Python para praticar strings, listas, loops, condicionais e entrada de dados. O jogador deve descobrir uma palavra oculta antes de esgotar as tentativas disponíveis.
+Crie o jogo da Forca em Python para praticar cadeias de caracteres, listas, estruturas de repetição, condicionais e entrada de dados. O jogador deve descobrir uma palavra oculta antes de esgotar as tentativas disponíveis.
 
-## 📝 Tasks
+## 📝 Tarefas
 
 ### 🛠️ Selecione a palavra e prepare o estado inicial
 
@@ -25,7 +25,7 @@ O programa deve:
 
 #### Descrição
 
-Crie o loop principal para receber palpites de letras, atualizar o progresso e encerrar a partida quando o jogador vencer ou ficar sem tentativas.
+Crie o laço principal para receber palpites de letras, atualizar o progresso e encerrar a partida quando o jogador vencer ou ficar sem tentativas.
 
 #### Requisitos
 
